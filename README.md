@@ -16,12 +16,14 @@ This is a Node.js web application that allows users to access a hidden secret me
     •  `index.html`: The homepage with a form for password entry.
     <br>
     • `secrets.html`: The page displaying the secret message post-authentication.
-2) Server Setup:
+    <br>
+3) Server Setup:
     <br>
     • `index.js`: The main server file where the Express application is configured and routes are defined.
    <br>
     • `Body-parser`: To parse form data sent through HTTP POST.
-3) Routes:
+    <br>
+5) Routes:
     <br>
     • `GET /`: Serves the homepage (`index.html`)
     <br>
